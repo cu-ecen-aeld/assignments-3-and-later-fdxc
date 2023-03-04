@@ -1,5 +1,4 @@
-SRC := aesdsocket.c
-TARGET = aesdsocket
+CROSS_COMPILE=
 CC = gcc
 CFLAGS = -g -Wall -Werror
 

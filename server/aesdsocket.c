@@ -15,7 +15,7 @@
 
 #define SERVER_PORT "9000"
 #define BACKLOG 10
-#define BUFFER_SIZE 100
+#define BUFFER_SIZE 1024
 
 char *recieve_buffer;
 int sockfd;
